@@ -1,4 +1,4 @@
-var ctx = document.getElementById('canvas').getContext('2d');
+var ctx = $('#canvas')[0].getContext('2d');
 
 function Grid() {
     this._positions = [];
